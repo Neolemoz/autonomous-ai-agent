@@ -1,0 +1,18 @@
+TASK:
+create a python script that prints hello
+MAX ATTEMPTS: 3
+
+=== ATTEMPT 1 ===
+=== PLAN ===
+PLAN:
+1. FILE_WRITE: Create a Python script named hello.py that prints "hello".
+
+=== STEP 1 ===
+FILE_WRITE: Create a Python script named hello.py that prints "hello".
+=== STEP RESULT ===
+File written successfully
+=== EVALUATION ===
+YES
+=== FINAL ANSWER ===
+File written successfully
+FINAL: SUCCESS

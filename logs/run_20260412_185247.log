@@ -1,0 +1,50 @@
+TASK:
+[MODE: general]
+test task
+MAX ATTEMPTS: 3
+
+=== ATTEMPT 1 ===
+=== PLAN ===
+{
+  "goal": "Create a test task",
+  "constraints": [
+    "Do not include tests, README files, documentation, refactors, or extra features"
+  ],
+  "minimal_output": "A single file containing the test task implementation",
+  "steps": [
+    "Write a file named test_task.py with a simple test task implementation"
+  ]
+}
+
+=== STEP 1 ===
+Write a file named test_task.py with a simple test task implementation
+=== STEP RESULT ===
+File written successfully
+=== EVALUATION ===
+NO
+=== FINAL ANSWER ===
+File written successfully
+Evaluation failed. Retrying...
+
+=== ATTEMPT 2 ===
+=== PLAN ===
+{
+  "goal": "Create a test task",
+  "constraints": [
+    "Do not include tests, README files, documentation, refactors, or extra features"
+  ],
+  "minimal_output": "A single file named test_task.py containing the test task implementation",
+  "steps": [
+    "Write a file named test_task.py with a simple test task implementation"
+  ]
+}
+
+=== STEP 1 ===
+Write a file named test_task.py with a simple test task implementation
+=== STEP RESULT ===
+File written successfully
+=== EVALUATION ===
+YES
+=== FINAL ANSWER ===
+File written successfully
+FINAL: SUCCESS

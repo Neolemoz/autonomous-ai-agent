@@ -1,0 +1,23 @@
+[
+  {
+    "input": "[MODE: general]\ncreate a python script that prints hello",
+    "mode": "general",
+    "status": "completed",
+    "retry_count": 0,
+    "max_retry": 3,
+    "last_error": "",
+    "id": 1,
+    "started_at": "2026-04-12T23:31:14+00:00Z",
+    "completed_at": "2026-04-12T23:31:20+00:00Z"
+  },
+  {
+    "id": 2,
+    "input": "create a python script that prints hello",
+    "status": "completed",
+    "retry_count": 0,
+    "max_retry": 3,
+    "last_error": "",
+    "started_at": "2026-04-12T23:31:53+00:00Z",
+    "completed_at": "2026-04-12T23:31:57+00:00Z"
+  }
+]

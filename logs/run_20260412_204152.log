@@ -1,0 +1,29 @@
+TASK:
+[MODE: general]
+create a python script that prints hello
+MAX ATTEMPTS: 3
+
+=== ATTEMPT 1 ===
+=== PLAN ===
+{
+  "goal": "Create a Python script that prints 'hello'.",
+  "constraints": [
+    "The script must be written in Python.",
+    "No additional features or files are required.",
+    "No tests or documentation should be included."
+  ],
+  "minimal_output": "A Python script file that prints 'hello' when executed.",
+  "steps": [
+    "Write a Python script named hello.py that prints 'hello'."
+  ]
+}
+
+=== STEP 1 ===
+Write a Python script named hello.py that prints 'hello'.
+=== STEP RESULT ===
+File written successfully
+=== EVALUATION ===
+YES
+=== FINAL ANSWER ===
+File written successfully
+FINAL: SUCCESS

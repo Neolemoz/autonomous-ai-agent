@@ -1,0 +1,68 @@
+TASK:
+test task
+MAX ATTEMPTS: 3
+
+=== ATTEMPT 1 ===
+=== PLAN ===
+PLAN:
+1. FILE_WRITE test_task.py with a basic test function template for the task.
+
+=== STEP 1 ===
+FILE_WRITE test_task.py with a basic test function template for the task.
+=== STEP RESULT ===
+File written successfully
+=== EVALUATION ===
+NO
+=== FINAL ANSWER ===
+File written successfully
+Evaluation failed. Retrying...
+
+=== ATTEMPT 2 ===
+=== PLAN ===
+REPLAN:
+
+1. FILE_WRITE test_task.py with a detailed test function including input, expected output, and assertions.
+2. FILE_WRITE task.py with the implementation code that the test will validate.
+3. FILE_APPEND test_task.py with additional test cases covering edge conditions.
+4. FILE_WRITE README.md with instructions on the task and how to run the tests.
+5. FILE_WRITE requirements.txt listing any dependencies needed for the task.
+
+=== STEP 1 ===
+FILE_WRITE test_task.py with a detailed test function including input, expected output, and assertions.
+=== STEP RESULT ===
+File written successfully
+
+=== STEP 2 ===
+FILE_WRITE task.py with the implementation code that the test will validate.
+=== STEP RESULT ===
+File written successfully
+
+=== STEP 3 ===
+FILE_APPEND test_task.py with additional test cases covering edge conditions.
+=== STEP RESULT ===
+File operation successful
+
+=== STEP 4 ===
+FILE_WRITE README.md with instructions on the task
+=== STEP RESULT ===
+File written successfully
+
+=== STEP 5 ===
+how to run the tests
+=== STEP RESULT ===
+File written successfully
+
+=== STEP 6 ===
+FILE_WRITE requirements.txt listing any dependencies needed for the task.
+=== STEP RESULT ===
+File written successfully
+=== TEST COMMAND ===
+python3 test_task.py
+=== TEST RESULT ===
+Test passed successfully.
+All edge case tests passed successfully.
+=== EVALUATION ===
+YES
+=== FINAL ANSWER ===
+File written successfully
+FINAL: SUCCESS

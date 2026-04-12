@@ -1,0 +1,18 @@
+TASK:
+test
+MAX ATTEMPTS: 3
+
+=== ATTEMPT 1 ===
+=== PLAN ===
+PLAN:
+1. FILE_WRITE to create a test file named test_sample.py with a basic test function.
+
+=== STEP 1 ===
+FILE_WRITE to create a test file named test_sample.py with a basic test function.
+=== STEP RESULT ===
+File written successfully
+=== EVALUATION ===
+YES
+=== FINAL ANSWER ===
+File written successfully
+FINAL: SUCCESS
